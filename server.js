@@ -7,3 +7,7 @@ io.on('connection', (socket) => {
         console.log('Client disconnected');
     });
 });
+
+server.listen(3000, () => {
+    console.log('Server running on http://localhost:3000');
+});
